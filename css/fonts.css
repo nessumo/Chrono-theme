@@ -1,0 +1,41 @@
+/*******  Fonts  ********/
+
+h1,h2,h3,h4,h5
+
+h2 {
+  font: 23px georgia,times,serif;
+  margin: 5px 0;
+  color: #6c6c6c;
+}
+h3 {
+font: 18px georgia,times,serif;
+  margin: 5px 0;
+  color: #6c6c6c;
+}
+div#homelink h1 {
+  color: white;
+  font-family: trebuchet ms,arial,helvetica,sans-serif;
+  font-size: 48px;
+  text-align: right;
+  margin-right: 110px;
+  margin-top: 7px;
+   -moz-opacity:.80; 
+  filter:alpha(opacity=80); 
+  opacity:.80;
+}
+
+#content h2.title {
+  background: url(images/headerbg.gif) no-repeat 0% 3px;
+  padding: 0 0 0 20px;
+  margin-left: -20px;
+  color: #e06003;
+}
+#content h2.title.node-full {
+  padding: 0 0 0 38px;
+  background: url(images/headerbg.gif) no-repeat 21px 3px;
+  color: #e06003;
+}
+#content h2.title a {
+  font: 23px georgia,times,serif;
+  color: #e06003;
+}

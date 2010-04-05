@@ -1,0 +1,145 @@
+/* 
+Theme Name: Chrono
+Theme URI: http://nessumo.net/
+Description: Drupal Chrono theme rewrited for Wordpress
+Version: 1.0.0
+Author: Tomasz 'nessumo' Warchol
+Author URI: http://nessumo.net/
+Tags: white, three-columns, fixed-width, threaded-comments, sticky-post
+
+License: GNU General Public License (GPL) version 3
+
+------------------------------------------------------------------*/
+@import url("css/structure.css");
+@import url("css/fonts.css")
+
+/* CSS Document */
+html, body {
+  width:100%;
+  height: 100%;
+  margin-bottom: 1px;
+}
+body {
+  /*overflow: -moz-scrollbars-vertical;*/
+  padding:0; margin: 0;
+  text-align: center;
+  background: #ececed;
+  color: #555;
+  font: 12px verdana,arial,helvetica,sans-serif;
+  line-height: 1.4em;
+}
+img {
+  border: 0;
+}
+
+
+#content p{
+  margin: 7px 0;
+}
+
+/*******  Fonts  ********/
+div#sidebar-right h2 {
+  font-size: 18px;
+  color: #777;
+}
+div#sidebar-right ul {
+  padding: 0;
+  margin: 0;
+}
+div#sidebar-right ul li {
+  margin: 0;
+  padding-left: 16px;
+  list-style-type: none;
+  list-style-image: none;
+  background: url(images/orangepunkt.gif) no-repeat 3px 8px;
+}
+div#sidebar-right ul li a {
+  color: #6c6c6c;
+  font-size: 11px;
+}
+div#sidebar-right .block {
+  padding-bottom: 10px;
+}
+
+/*div#sidebar-right ul li .view-data-comments-name
+{
+font: 0.8em verdana,arial,helvetica,sans-serif;
+  padding: 3px 0;
+  text-align: left;
+}*/
+div#sidebar-right ul li .view-data-comments-timestamp,
+div#sidebar-right ul li .view-data-comments-name {
+  display: none;
+}
+
+/******  Links, Taxonomy, Submitted...  ***/
+ul.links, span.submitted  {
+  font: 0.8em verdana,arial,helvetica,sans-serif;  
+  padding: 5px 10px 13px 0;
+  text-align: left;
+}
+div.links ul  {
+  margin: 0;
+  padding: 0;
+}
+ul.links  li {
+  display: inline;
+  padding: 0 0.5em 0 0;
+}
+ul.links li a {
+  text-decoration: none;
+  color: #999;
+}
+div.meta ul.links a {
+  color: #999;
+}
+div.meta ul.links a:hover {
+  color: #CF6619;
+}
+
+/********  Links  ******/
+a {
+  text-decoration: none;
+  color: #CF6619;
+  color: #7490c9;
+}
+a:hover {
+  color: #4E98CA;
+  color: #CF6619;
+}
+
+/*******  Primary Links  ********/
+div#top-menu {
+ position: absolute;
+ top: 190px;
+ left: 100px;
+ width: 780px;
+}
+div#top-menu ul {
+  padding: 0;
+  margin: 0;  
+}
+div#top-menu ul li {
+  display: inline;
+}
+div#top-menu ul li a {
+  float: right;
+  padding: 3px 8px;
+  margin: 0 0 0 10px;
+  background: #eb690a;
+  color: white;
+  font: bold 15px "trebuchet ms",verdana,arial,helvetica,sans-serif;
+  text-decoration: none;
+}
+div#top-menu ul li a:hover {
+  background: #FFA40B;
+}
+
+/********  Helpers  ******/
+.cleardiv {
+  clear: both;
+  padding: 0.01px;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
